@@ -23,7 +23,9 @@ Easily the option with the greatest overhead. However, also potentially the simp
 
 At the time of this writing, there are only a few options available for use on the m1:
 1. Parallels Desktop 
-2. UTM
+2. VMWare Fusion 12
+3. Virtual Box 6.1
+4. UTM
 
 # Docker
 Containerisation. This is a technology rising in popularity-- lightweight, less resource intensive. Docker strives to run a minimalistic, light containers that are sufficient for whatever app you are using. Consider this.
