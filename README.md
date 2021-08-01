@@ -35,7 +35,7 @@ Containerisation. This is a technology rising in popularity-- lightweight, less 
 This is basically a smaller, less resource intensive virtualization than a whole VM.
 1. CodeWeavers CrossOver (based on Wine)
 2. QEMU
-3. Wine (not for m1 macs)
+3. Wine 5
 
 # Dual Booting
 Least overhead, but less stable.
