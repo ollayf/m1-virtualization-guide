@@ -34,13 +34,17 @@ Personally, I have tried and used ubuntu on arm64 and it was a very good experie
 As of now, Vivado design, as well as many Xilinx tools are not supported by arm64 architecture. RIP Com Eng students
 
 # VMs
-Easily the option with the greatest overhead. However, also potentially the simplest. You will definitely need to learn how to use VMs eventually tho...  
+Likely the option with the greatest overhead. However, also usually the simplest to set up. You will definitely need to learn how to use VMs eventually tho...   Typically, virtualization can only be done with the same architecture, (at least RISC-V VS CISC-V), but in this case UTM can spin up VMs in different architecture. Greater explanation in the [notes](#notes)
 
 At the time of this writing, there are only a few options available for use on the m1:
 1. Parallels Desktop (no intentions of testing)
 2. VMWare Fusion 12
 3. Virtual Box 6.1
-4. UTM
+4. **UTM (free)** 
+5. ACVM 
+
+## Note
+ACVM and UTM are technically emulation software as they use the QEMU engine in the backend. However, it is primarily used to spin up VMs. It is to be noted
 
 # Docker
 Containerisation. This is a technology rising in popularity-- lightweight, less resource intensive. Docker strives to run a minimalistic, light containers that are sufficient for whatever app you are using. Consider this.
