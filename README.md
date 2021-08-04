@@ -19,13 +19,17 @@ I do not take any responsibility for any crashes, failures as a result of follow
 This is a fascinating technology, which also remains one of the biggest reasons for me to make this purchase. If you haven't heard of this term (or RISC-V), I shall spare you the details, however, the main point is that the architecture of the macbook is very similar to that of a raspberry pi. Hence, I will be mostly using that as a reference for software that are generally more stable.
 
 # VMs
-Easily the option with the greatest overhead. However, also potentially the simplest. You will definitely need to learn how to use VMs eventually tho...  
+Likely the option with the greatest overhead. However, also usually the simplest to set up. You will definitely need to learn how to use VMs eventually tho...   Typically, virtualization can only be done with the same architecture, (at least RISC-V VS CISC-V), but in this case UTM can spin up VMs in different architecture. Greater explanation in the [notes](#notes)
 
 At the time of this writing, there are only a few options available for use on the m1:
 1. Parallels Desktop 
 2. VMWare Fusion 12
 3. Virtual Box 6.1
-4. UTM
+4. **UTM (free)** 
+5. ACVM 
+
+## Note
+ACVM and UTM are technically emulation software as they use the QEMU engine in the backend. However, it is primarily used to spin up VMs. It is to be noted
 
 # Docker
 Containerisation. This is a technology rising in popularity-- lightweight, less resource intensive. Docker strives to run a minimalistic, light containers that are sufficient for whatever app you are using. Consider this.
